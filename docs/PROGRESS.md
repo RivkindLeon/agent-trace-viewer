@@ -12,6 +12,7 @@ skip them and take the next one.
       `web` packages with one passing test each; scripts `typecheck`, `test`, `check`
 - [ ] M0.3 CI: `.github/workflows/ci.yml` runs `npm ci && npm run check` on push and PR (Node 26)
 - [ ] M0.4 Fixture guard: `tools/check-fixtures.ts` (TDD "Fixtures" rules), wired into `check`
+- [ ] M0.5 Branch protection on `main`: required CI check from M0.3, PRs only (Claude)
 
 Done when: a PR with a deliberately failing test goes red, and green after the fix.
 
@@ -78,7 +79,7 @@ Done when: Claude exports a real session, greps the HTML for the user's name, ho
 
 ## M7 — Public launch
 
-- [ ] M7.1 Final name, npm package name check, repo visibility (Leon)
+- [ ] M7.1 Final name, npm package name check (Leon)
 - [ ] M7.2 Demo site: build `dist/` with 3 bundled synthetic samples (good run, looping run, subagents); mobile layout
 - [ ] M7.3 Deploy demo (static hosting decision — Leon), link in README
 - [ ] M7.4 README: what/why, 20-second GIF, install, privacy section, supported formats

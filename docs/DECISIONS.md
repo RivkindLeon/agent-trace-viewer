@@ -27,8 +27,14 @@ the agents' real record shapes. Real logs are used only locally for manual check
 The `codex` agent on the OpenClaw server takes one task per night, opens a PR with `npm run check` green and
 stops. Merge after review (process in `PROCESS.md`).
 
+## D-006 — 2026-11-25 — Public repository from day one, MIT
+
+Answers Q-2. The repository is public from the first commit: the portfolio value includes the visible history of a
+project built by a nightly agent. Consequences: everything in the repo, including PR descriptions and fixtures, is
+public — the no-real-logs rule (D-004) matters even more; branch protection with a required CI check becomes
+available (PROGRESS M0.5).
+
 ## Open questions
 
 - **Q-1** Final name (candidates: `tracelens`, `agentscope`, `replaykit`, `atv`) — needs an npm/GitHub name check. (Leon)
-- **Q-2** Public from day one, or private until M6? (Leon)
 - **Q-3** Demo hosting: GitHub Pages vs the OpenClaw server behind Caddy. (Leon)

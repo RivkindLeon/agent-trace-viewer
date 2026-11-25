@@ -4,3 +4,6 @@ A local-first viewer for coding-agent session logs (Claude Code, Codex CLI, Open
 context, files touched, and where the agent got stuck. Nothing leaves your machine.
 
 Status: specification only. See `docs/PRD.md`, `docs/TDD.md` and `docs/PROGRESS.md`.
+
+Built in public: code is written by a nightly coding agent, one task per night, reviewed in the morning
+(`docs/PROCESS.md`). MIT licence.
