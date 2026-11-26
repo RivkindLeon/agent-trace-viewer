@@ -8,8 +8,8 @@ skip them and take the next one.
 ## M0 — Foundation
 
 - [x] M0.1 Specs: PRD, TDD, PROGRESS, DECISIONS, PROCESS, AGENTS (Claude) (initial commit)
-- [ ] M0.2 Workspace: root `package.json` with workspaces `packages/*`; `tsconfig.base.json`; empty `core`, `cli`,
-      `web` packages with one passing test each; scripts `typecheck`, `test`, `check`
+- [x] M0.2 Workspace: root `package.json` with workspaces `packages/*`; `tsconfig.base.json`; empty `core`, `cli`,
+      `web` packages with one passing test each; scripts `typecheck`, `test`, `check` (PR #1)
 - [ ] M0.3 CI: `.github/workflows/ci.yml` runs `npm ci && npm run check` on push and PR (Node 26)
 - [ ] M0.4 Fixture guard: `tools/check-fixtures.ts` (TDD "Fixtures" rules), wired into `check`
 - [ ] M0.5 Branch protection on `main`: required CI check from M0.3, PRs only (Claude)
